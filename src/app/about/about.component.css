@@ -1,0 +1,23 @@
+.container-fluid {
+    background-color: #53585e;
+}
+
+h2 {
+    color: #9a9d9c;
+}
+
+p {
+    color: #aaacab;
+}
+.skylar-smokey {
+    width: 100%;
+    margin: auto;
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.row {
+    padding: 15px;
+}
+

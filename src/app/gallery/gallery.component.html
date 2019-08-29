@@ -1,0 +1,70 @@
+<!--- Two Column Section -->
+<div (window:resize)="drawWindow()">
+    <div class="container-fluid">
+      <!--
+        <div *ngIf="expand">
+          <button class="close" onclick="close()">close</button>
+          <expanded-gallery image="{{clickedImage}}"></expanded-gallery>
+        </div>
+      -->
+        <div *ngIf="xs" class="row">
+            <div class="col-xs-12">
+              <gallery-image *ngFor="let image of column1" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+          </div>
+        <div *ngIf="md" class="row">
+            <div class="col-md-6">
+              <gallery-image *ngFor="let image of column1" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+            <div class="col-md-6">
+              <gallery-image *ngFor="let image of column2" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+          </div>
+    
+        <div *ngIf="lg" class="row">
+            <div class="col-lg-4">
+              <gallery-image *ngFor="let image of column1" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+            <div class="col-lg-4">
+              <gallery-image *ngFor="let image of column2" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+            <div class="col-lg-4">
+              <gallery-image *ngFor="let image of column3" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+          </div>
+    
+        <div *ngIf="xl" class="row">
+            <div class="col-xl-3">
+              <gallery-image *ngFor="let image of column1" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+            <div class="col-xl-3">
+              <gallery-image *ngFor="let image of column2" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+            <div class="col-xl-3">
+              <gallery-image *ngFor="let image of column3" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+            <div class="col-xl-3">
+              <gallery-image *ngFor="let image of column4" url="{{image.url}}" caption="{{image.caption}}" index="{{image.index}}"></gallery-image>
+            </div>
+        </div>
+    
+        
+    
+            <!--
+            <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+              <gallery-image url="assets/img/mckenzie.jpg" caption="..."></gallery-image>
+              <gallery-image url="assets/img/2015-02-11 col.jpg" caption="..."></gallery-image>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+                <gallery-image url="assets/img/tns.jpg" caption="..."></gallery-image>
+                <gallery-image url="assets/img/two.jpg" caption="..."></gallery-image>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+              <gallery-image url="assets/img/all 3.jpg" caption="..."></gallery-image>
+              <gallery-image url="assets/img/tristan.jpg" caption="..."></gallery-image>
+            </div>
+            -->
+       
+        <hr class="my-4">
+    </div>
+</div>
