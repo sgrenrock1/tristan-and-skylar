@@ -39,7 +39,7 @@ export class ImageSliderComponent implements OnInit {
     var messages = [
       "Skylar Roasky is your source for mid-tier quality mouse art.",
       "This is the least cool site on the Net.",
-      "Send hate tweets to @SkylarRoasky",
+      "Send hate tweets to @TristyAndSkylar",
       "Java, JavaScript -- SAME THING",
       "\"I'm.\" is a complete sentence.",
       "Be You'reself.",
