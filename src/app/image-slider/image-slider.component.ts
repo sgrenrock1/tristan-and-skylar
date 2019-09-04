@@ -37,16 +37,12 @@ export class ImageSliderComponent implements OnInit {
 
   randomMessage(): string {
     var messages = [
-      "Skylar Roasky is your source for mid-tier quality mouse art.",
       "This is the least cool site on the Net.",
-      "Send hate tweets to @TristyAndSkylar",
       "Java, JavaScript -- SAME THING",
       "\"I'm.\" is a complete sentence.",
       "Be You'reself.",
       "This site runs best on IE6.",
-      "I😃suffer😃from😃same😃face😃syndrome.",
-      "There's nothing to do on this website.",
-      "I'm forking over $5.10/month to run this shit."
+      "There's nothing to do on this website."
     ];
     var min = 0;
     var max = messages.length;
@@ -56,15 +52,10 @@ export class ImageSliderComponent implements OnInit {
 
   randomImage(): string {
     var images = [
-      "assets/slider/01.jpg",
-      "assets/slider/02.jpg",
-      "assets/slider/03.jpg",
-      "assets/slider/04.jpg",
-      "assets/slider/05.jpg",
-      "assets/slider/06.jpg",
-      "assets/slider/07.jpg",
-      "assets/slider/08.jpg",
-      "assets/slider/09.jpg"
+      "assets/arch-slider/01.jpeg",
+      "assets/arch-slider/02.jpeg",
+      "assets/arch-slider/03.jpeg",
+      "assets/arch-slider/00.jpeg"
     ];
     var min = 0;
     var max = images.length;
