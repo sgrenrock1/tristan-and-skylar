@@ -23,12 +23,16 @@
     transition: all .2s ease-in-out;
     background-color: rgb(162, 164, 168);
     transform: scale(1.02);
-    -ms-transform: scale(1.02); /* IE 9 */
-    -webkit-transform: scale(1.02); /* Safari and Chrome */
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
 }
 
 .caption {
     color: #ffffff;
     margin-top: 2px;
     margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
 }
