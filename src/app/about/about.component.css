@@ -1,16 +1,19 @@
 .container-fluid {
     background-color: #53585e;
+    text-align: right;
 }
 
 h2 {
     color: #9a9d9c;
+    text-align: left;
 }
 
 p {
     color: #aaacab;
+    text-align: left;
 }
 .skylar-smokey {
-    width: 100%;
+    width: 500px;
     margin: auto;
     border-width: 10px;
     border-radius: 10px;
