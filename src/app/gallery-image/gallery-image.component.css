@@ -8,6 +8,11 @@
     margin-bottom: 15px;
     text-align: center;
     box-shadow: 3px 3px 10px #00000069;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .img {
@@ -16,11 +21,6 @@
 }
 
 .outerbox:hover {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
     background-color: rgb(162, 164, 168);
     transform: scale(1.02);
     -ms-transform: scale(1.02);
